@@ -6,7 +6,7 @@ En este desafío se crea un API REST que permite limitar recursos, filtrar los r
 
 Utiliza las siguientes instrucciones SQL para crear la base de datos joyas y una tabla inventario en PostgreSQL.
 
-##CREATE DATABASE joyas;
+## CREATE DATABASE joyas;
 
 CREATE TABLE inventario (id SERIAL, nombre VARCHAR(50), categoria
 VARCHAR(50), metal VARCHAR(50), precio INT, stock INT);
@@ -36,7 +36,7 @@ const pool = new Pool({
      allowExitOnIdle: true,
    });
 
-##Uso:
+## Uso:
 Se pueden utilizar los siguientes comandos.
 
 npm run start
